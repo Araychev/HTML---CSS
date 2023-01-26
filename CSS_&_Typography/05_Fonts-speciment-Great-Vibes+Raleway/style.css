@@ -1,0 +1,39 @@
+html{
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    line-height: 1.5;
+}
+
+
+body h1{
+    font-family: Great Vibes, cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+h2{
+    font-family: Great Vibes, cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+p{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;  
+}
+ol{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+li{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5; 
+}
