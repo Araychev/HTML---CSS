@@ -4,7 +4,28 @@ html{
     font-size: 16px;
     line-height: 1.5;
 }
-
+body h1{
+    font-family: Georgia, serif;
+}
 h1 h2 h3 h4 h5 h6{
     font-family: Georgia, serif;
 }
+
+table, th, td {
+    border: 1px solid#96D4D4;
+    border-collapse: collapse;
+  }
+
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+  th {
+    text-align: left;
+    background-color: cadetblue;
+  }
+
+  blockquote{
+  border-left:4px solid rgb(221,221,221);
+  font-style: italic;
+  }
