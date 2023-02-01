@@ -5,6 +5,7 @@ body{
     'aside main'
     'footer footer';
     grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 50px;
     gap: 10px;
  
 }
