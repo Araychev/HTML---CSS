@@ -1,0 +1,23 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+a{
+    background-color: rgb(221, 210, 210);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+i{
+    background-color:  rgb(221, 210, 210);
+    opacity: 0.3;
+}
+
+i:hover{
+opacity: 1;
+}
