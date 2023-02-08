@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .conteiner{
+    display: flex;
+    max-width: 65vw;
+    align-items: center;
+   
+  }
+
+  section{
+    display: flex;
+  }
+
+  .notes{
+    flex-direction: column;
+    height: 240px;
+  }
+  .week{
+    width: 50vw;
+    
+     flex-flow: row wrap;
+  }
+
+  span{
+    border: 1px solid black;
+  }
+
+  .header-w{
+    width: 50vw;
+    height: 120px;
+    text-align: center;
+    padding: 30px;
+    
+  }
+  .days{
+    width: 10vw;
+    height: 120px;
+    text-align: center;
+    padding: 30px;
+    padding-left: 10px;
+    
+  }
+  .weekend{
+    width: 25vw;
+    height: 120px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .notes{
+   width: 15vw;
+   height: 480px;
+  }
+
+  .note{
+    height: 240px;
+    text-align: center;
+    padding-top: 5px;
+  }
