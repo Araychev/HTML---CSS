@@ -1,0 +1,117 @@
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color:rgb(238, 238, 238) ;
+}
+header{
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin-right: 100px;
+}
+
+section{
+    position: relative;
+}
+
+.title{
+    display: inline-block;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: xx-large;
+     margin-bottom: 0;
+}
+
+
+.nav-head{
+    display: inline-block;
+    position: absolute;
+     right: -5px;
+    bottom: 5px;
+   
+}
+
+.nav-menu li{
+list-style-type: none;
+display: inline-block;
+margin-right: 10px;
+
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+.main-article{
+    display: inline-block;
+    margin-right: 35%;
+}
+
+.p-one{
+    float: right;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.p-quote{
+    display: inline-block;
+    position: relative;
+}
+
+.div-quote{
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    padding-right: 15px;
+    border-right: 3px solid rgb(211, 205, 205);
+}
+.quote{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.autor{
+    display: block;
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+
+.p-two{
+    float: left;
+    width: 180px;
+    height: 110px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+aside{
+    display: inline-block;
+    position: absolute;
+    left: 70%;
+}
+.aside-li{
+    list-style-type: square;
+}
+.aside-li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+
