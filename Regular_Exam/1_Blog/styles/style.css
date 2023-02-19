@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #f6e0b5;
+}
+
+body {
+  display: flex;
+  gap: 2rem;
+  width: 1920px;
+  padding-top: 3rem;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.container img {
+  width: 100rem;
+  height: 30rem;
+  border-radius: 8px;
+  padding: 0%;
+  box-shadow: 15px 15px 25px black;
+  object-fit: cover;
+}
+.text-cont {
+  background-color: #66545e;
+  position: absolute;
+  bottom: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 2.5rem;
+  color: white;
+  padding-right: 822px;
+}
+.text {
+  background-color: #66545e;
+  position: absolute;
+  bottom: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 2.5rem;
+  color: white;
+  width: 200px;
+  padding-left: 2px;
+  padding-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+sidebar {
+  width: 400px;
+}
+
+sidebar ul {
+  list-style-type: none;
+}
+
+sidebar ul li a {
+  text-decoration: none;
+  color: #6d5f6a;
+}
