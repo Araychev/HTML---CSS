@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+  .home-left {
+    display: none;
+  }
+
+  .home-right {
+    display: none;
+  }
+
+  .home-container01 {
+    display: none;
+  }
+
+  .navbar-logo-title {
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .home-middle {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .home-hero1 {
+    max-width: 600px;
+    flex-direction: column;
+  }
+
+  .max-width-container {
+    max-width: 600px;
+  }
+
+  .home-info {
+    margin-left: 120px;
+  }
+
+  .home-container04 {
+    margin-left: 150px;
+  }
+  .home-btn-group {
+    margin-left: 120px;
+  }
+  .Heading-1 {
+    margin-left: 50px;
+  }
+}
