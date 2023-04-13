@@ -1,0 +1,8 @@
+Display information
+
+LG UltraWide
+Desktop mode: 2560x1080, 60Hz
+Active signal mode: 2560x1080, 60Hz
+Bit depth: 8-bit
+Color format: RGB
+Color space: SDR
