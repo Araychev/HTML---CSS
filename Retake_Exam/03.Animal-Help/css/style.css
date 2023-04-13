@@ -1,0 +1,210 @@
+:root {
+  --body-background: #ffffff;
+  --sec-background: #87dcfd;
+  --border-color: #e2e2e2;
+}
+html {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+body {
+  width: 1350px;
+  font-family: Arial, sans-serif;
+  background-color: var(--body-background);
+}
+.navbar-logo-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.logo-text {
+  color: #000000;
+  font-weight: bold;
+  flex: 50%;
+  align-self: center;
+  padding-left: 4rem;
+}
+.nav-menu {
+  flex: 2%;
+  margin-right: 1.5rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
+.section-top {
+  background-color: var(--sec-background);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sec-top-paragraph {
+  flex: 10%;
+  align-self: center;
+  margin-left: 6rem;
+  margin-right: 10rem;
+}
+
+.sec-top-paragraph h2 {
+  margin-bottom: 1.5rem;
+}
+.sec-top-paragraph p {
+  margin-bottom: 1.5rem;
+}
+.sec-top-img {
+  flex: 6%;
+  margin-right: 2rem;
+}
+
+.btn-donate {
+  background-color: #ffffff;
+  border: 1px solid#5c5c5c;
+  border-radius: 6px;
+  padding: 8px 46px;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.btn-news {
+  background-color: #000000;
+  color: #fdffff;
+  border: 1px solid#000000;
+  border-radius: 6px;
+  padding: 8px 46px;
+}
+.section-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec-sec-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.sec-sec-text h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sec-sec-text p {
+  width: 400px;
+  font-weight: 600;
+}
+
+.sec-sec-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.sec-sec-articles article {
+  flex: 10%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.sec-sec-articles i {
+  color: var(--sec-background);
+  font-size: 8em;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+
+.section-three {
+  background-color: var(--sec-background);
+  height: 500px;
+}
+
+.section-three h1 {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+.section-three button {
+  margin: 0 auto;
+  display: block;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.left {
+  flex: 50%;
+}
+.right {
+  flex: 50%;
+}
+.section-bottom h1 {
+  text-align: center;
+}
+
+.section-bottom p {
+  text-align: center;
+}
+
+.img-gallery {
+  display: flex;
+  height: 180px;
+  justify-content: space-around;
+}
+.section-bottom h2 {
+  text-align: center;
+}
+.wrap-block {
+  display: block;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  margin: 25px 75px;
+  overflow: hidden;
+}
+
+.wrap-block h3 {
+  background-color: var(--sec-background);
+  height: 2.5rem;
+  margin: auto;
+}
+.main-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-bottom img {
+  height: 350px;
+}
+.newsletter {
+  flex: 45%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+}
+
+.social {
+  margin-left: 2rem;
+}
