@@ -51,3 +51,8 @@ li {
 li:nth-child(1) {
   background-color: #56dbb1;
 }
+
+section {
+  display: flex;
+  margin-top: 50px;
+}
