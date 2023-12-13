@@ -1,0 +1,53 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: Ubuntu;
+  width: 1920px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+}
+
+h1 {
+  color: #313131;
+  padding-left: 10px;
+  border-right: solid 1px #dbdbdb;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  color: #313131;
+  padding-top: 40px;
+  font-size: 0.75rem;
+}
+nav {
+  width: 55%;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  padding-top: 5px;
+  font-size: 0.75rem;
+  background-color: #ececec;
+  list-style: none;
+  height: 35px;
+  width: 85px;
+}
+li:nth-child(1) {
+  background-color: #56dbb1;
+}
