@@ -1,0 +1,82 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 1920px;
+  font-family: Agbalumo;
+  border: solid 3px black;
+}
+
+header {
+  padding-top: 50px;
+  background-color: #d5ebea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h1,
+h2 {
+  width: 92%;
+  border-bottom: solid 3px black;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  margin-top: 40px;
+}
+.Card {
+  width: 500px;
+  border: solid 3px black;
+  margin: 10px 40px;
+  padding: 20px 25px 20px 20px;
+}
+img {
+  width: 450px;
+}
+
+.Card > p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+section {
+  width: 65%;
+  margin-left: 25px;
+}
+
+article {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+h3 {
+  font-size: 2rem;
+  width: 45%;
+  background-color: #000000;
+  color: white;
+  margin-bottom: 0px;
+  padding-left: 100px;
+  padding-top: 5px;
+}
+.facts {
+  margin-top: 0px;
+  background-color: #d5ebea;
+  padding-bottom: 20px;
+}
+
+li {
+  padding-top: 20px;
+  font-size: 1.5rem;
+  list-style: none;
+}
